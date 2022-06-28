@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Dream Code</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header" data-aos="fade-down">
+            <img src="images/logo.png" alt="DreamCode" class="logo">
+            <ul class="header-list">
+                <a href="#main" onClick="refreshPage()">
+                    <li class=" border-right-width: 2px">Strona główna</li>
+                </a>
+                <a href="#about">
+                    <li>O nas</li>
+                </a>
+                <a href="#portfolio">
+                    <li>Portoflio</li>
+                </a>
+                <a href="#team">
+                    <li>Team</li>
+                </a>
+                <a href="#contact">
+                    <li>Kontakt</li>
+                </a>
+            </ul>
+            <a href="https://discord.gg/WgWpYjeyFy"><img src="images/discord.png" alt="Discord" class="logo"></a>
+        </div>
+        <div style="width: 95%; margin: auto; display: flex;">
+            <div class="desciprtion" data-aos="fade-right">
+                <h1>DESCRIPTION</h1>
+                <p> Sit dolorem minus aut facilis deleniti qui molestias optio aut nemo deserunt aut veritatis
+                    tempora
+                    sed
+                    ipsam. Ut
+                    quidem commodi est alias fugiat aut eligendi galisum aut quos explicabo qui voluptatibus impedit
+                    vitae
+                    enim.
+                    Et
+                    quibusdam quae non voluptatibus delectus sed similique dolore et porro eveniet qui sunt
+                    assumenda
+                    qui
+                    minima
+                    quod sed maxime illum? Qui enim consequuntur aut nihil sint sit ipsa error.
+                </p>
+                <button><img src="images/shopping.png" alt="Shopping cart"
+                        style="width: 15px; margin-right: 8px;">ZAMÓW</button>
+            </div>
+            <div class="character">
+                <img src="images/character.png" alt="Character" style="width: 870px; height: 489px;">
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <div class="about-us" data-aos="fade-up">
+            <h1>O NAS</h1>
+            <p>
+                Lorem ipsum dolor sit amet. Sed ullam aut molestias excepturi nam dolorum quisquam. 33 consequuntur
+                fugit et
+                natus maxime ut error vitae non animi veniam in omnis sapiente qui cupiditate possimus. Eos natus
+                doloremque
+                et inventore ducimus sed quae autem qui numquam dicta ut eaque dolores et galisum illum vel soluta
+                impedit.
+        </div>
+        <div class="cards" data-aos="zoom-in">
+            <div class="card">
+                <div class="insideCard">
+                    <img src="images/bot.png" alt="bot" class="card-logo">
+                    <h1>
+                        500
+                    </h1>
+                    <p>
+                        Wykonanych botów
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="insideCard">
+                    <img src="images/plugin.png" alt="plugin" class="card-logo">
+                    <h1>
+                        300
+                    </h1>
+                    <p>
+                        Wykonanych pluginów
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="insideCard">
+                    <img src="images/trailer.png" alt="trailer" class="card-logo">
+                    <h1>
+                        200
+                    </h1>
+                    <p>
+                        Wykonanych trailerów
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="insideCard">
+                    <img src="images/projekt.png" alt="projekt" class="card-logo">
+                    <h1>
+                        1000
+                    </h1>
+                    <p>
+                        Wykonanych projektów
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio" class="portfolio">
+        <div class="portfolioInfo" data-aos="zoom-in">
+            <h1>PORTFOLIO</h1>
+            <p>Lorem ipsum dolor sit amet. Eum numquam ipsum et aperiam beatae vel
+                voluptatem
+                laudantium ut
+                assumenda
+                quod.
+                Et voluptatem eius ab molestiae ipsum et aspernatur dolores et consequatur numquam.</p>
+
+        </div>
+        <div style="width: 100%;" data-aos="fade-up">
+            <div class="video">
+                <iframe id="slider" width="640" height="360" src="https://www.youtube.com/embed/Gd1EIc7uXfI"
+                    style="margin-bottom: 10px;" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="thumbnails">
+                    <img onclick='videoURL("www.youtube.com/embed/Gd1EIc7uXfI")'
+                        src=" https://img.youtube.com/vi/Gd1EIc7uXfI/maxresdefault.jpg" alt="first" class="thumbnail">
+                    <img onclick='videoURL("www.youtube.com/embed/p7D1yz-GaBI")'
+                        src=" https://img.youtube.com/vi/p7D1yz-GaBI/maxresdefault.jpg" alt="second" class="thumbnail">
+                    <img onclick='videoURL("www.youtube.com/embed/dEsYnurZ0kU")'
+                        src="https://img.youtube.com/vi/dEsYnurZ0kU/maxresdefault.jpg" alt="third" class="thumbnail">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="team" class="team">
+        <div class="our-team" data-aos="zoom-in">
+            Nasz zespół
+        </div>
+        <div class="profiles">
+            <div class="profile" data-aos="flip-right">
+                <img src="images/avatar1.jpg" alt="Keymilo" class="avatar">
+                <div class="name">Keymilo</div>
+                <div>Owner DreamCode</div>
+            </div>
+            <div class="profile" data-aos="flip-right">
+                <img src="images/avatar2.png" alt="Ravis" class="avatar">
+                <div class="name">Ravis96</div>
+                <div>Owner DreamCode</div>
+            </div>
+            <div class="profile" data-aos="flip-right">
+                <img src="images/avatar3.png" alt="okizek" class="avatar">
+                <div class="name">okizek</div>
+                <div>JavaScript Developer</div>
+            </div>
+            <div class="profile" data-aos="flip-right">
+                <img src="images/avatar4.png" alt="Vayss " class="avatar">
+                <div class="name">Vayss</div>
+                <div>Grafik</div>
+            </div>
+            <div class="profile" data-aos="flip-right">
+                <img src="images/avatar5.jpg" alt="eripe " class="avatar">
+                <div class="name">eripe</div>
+                <div>Java Developer</div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="footer">
+        <div class="info">
+            <div style="text-align: center;"><img src="images/logo.png" alt="DreamCode" class="logo">
+                <p style="color: #FFF; margin-top: 1rem;">
+                    DreamCode nie jest w żaden sposób powiązany z firmą Mojang. Dochody ze sklepu
+                    przekazywane są na rzecz
+                    właściciela serwisu w celu utrzymania serwera.
+                </p>
+            </div>
+            <div style="text-align: center;">
+                <h1 class="infoHeading">Kontakt</h1>
+                <div style="margin-bottom: 5px;">
+                    <a href="https://discord.gg/WgWpYjeyFy" style="color: #FFF; text-decoration: none;">Discord</a>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <h1 class="infoHeading">Partnerzy</h1>
+                <div class="infoBox">
+                    <div class="partnerLogo">
+                        <img src="images/IceHost.png" alt="IceHost" width="88" height="37">
+                    </div>
+                    <div class="partnerText">
+                        <div>Oficjalny Partner</div>
+                        <div>IceHost</div>
+                    </div>
+                </div>
+                <div class="infoBox">
+                    <div class="partnerLogo">
+                        <img src="images/TwoCastle.png" alt="TwoCastle" width="60" height="60">
+                    </div>
+                    <div class="partnerText">
+                        <div>Oficjalny Partner</div>
+                        <div>TwoCastle</div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <h1 class="infoHeading">Projekty</h1>
+                <div style="margin-bottom: 5px;"> <a href="https://www.youtube.com/watch?v=T4SVc51Mi7o"
+                        style="color: #FFF; text-decoration: none;">dcCashDrop</a>
+                </div>
+                <div style="margin-bottom: 5px;"><a href="https://www.youtube.com/watch?v=OMexAn7tFa4&ab"
+                        style="color: #FFF; text-decoration: none;">dcBackup</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p style="color: #FFF; margin-right: 0.5rem;">© 2022 Copyright: </p>
+            <p style="color: #5f33b7;">DreamCode</p>
+        </div>
+    </div>
+    <script src="scripts/video.js"></script>
+    <script src="scripts/scroll.js"></script>
+    <script src="scripts/refreshPage.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
